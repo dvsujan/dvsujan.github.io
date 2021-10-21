@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="snapic.svg"
+   inkscape:export-filename="C:\Users\dvsuj\Desktop\typescript-learning\iosapp\src\assets\logo.png"
+   inkscape:export-xdpi="64"
+   inkscape:export-ydpi="64">
+  <defs
+     id="defs2">
+    <rect
+       x="66.282843"
+       y="117.73223"
+       width="43.564933"
+       height="11.49259"
+       id="rect102" />
+    <rect
+       x="66.282845"
+       y="117.73223"
+       width="43.564934"
+       height="11.49259"
+       id="rect102-7" />
+    <rect
+       x="66.282845"
+       y="117.73223"
+       width="43.564934"
+       height="11.49259"
+       id="rect158" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="541.98411"
+     inkscape:cy="513.57062"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 4">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 90.704595,97.185881 0.434313,10.924639"
+       id="path87" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 90.704595,97.185881 0.434311,10.924639"
+       id="path89" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     style="opacity:1">
+    <rect
+       style="fill:#ffe6d5;stroke-width:1.22607"
+       id="rect18-8-2"
+       width="169.61279"
+       height="88.176346"
+       x="69.36058"
+       y="-13.739717"
+       ry="18.517033"
+       transform="matrix(0.69378526,0.72018193,-0.61891778,0.78545578,0,0)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <rect
+       style="fill:#ffd42a;stroke-width:1.22238"
+       id="rect18-80"
+       width="161.08669"
+       height="92.285286"
+       x="47.00885"
+       y="53.691113"
+       ry="19.37991"
+       transform="matrix(0.93591222,0.35223333,-0.2746547,0.96154292,0,0)" />
+    <rect
+       style="fill:#ffd42a;stroke-width:1.22238"
+       id="rect18-80-7"
+       width="161.08669"
+       height="92.285286"
+       x="72.314095"
+       y="54.02832"
+       ry="19.37991"
+       transform="matrix(0.93591222,0.35223333,-0.2746547,0.96154292,0,0)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer 5"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       id="text100-1"
+       style="font-size:7.76111px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect102-7);"
+       transform="translate(10.294536,2.7617873)"><tspan
+         x="66.283203"
+         y="124.81312"><tspan
+           style="fill:#ff7f2a">Snapic</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff7f2a;stroke-width:1.22034"
+       id="rect10"
+       width="158.65813"
+       height="93.385162"
+       x="32.902851"
+       y="97.013229"
+       ry="28.015551"
+       transform="matrix(0.99999996,-2.9864039e-4,2.8324354e-4,0.99999996,0,0)" />
+    <ellipse
+       style="fill:#ffffff;stroke-width:1.10978"
+       id="path12"
+       cx="109.7332"
+       cy="143.97926"
+       rx="24.81576"
+       ry="27.081694"
+       transform="matrix(0.99999996,-2.9864039e-4,2.8324354e-4,0.99999996,0,0)" />
+    <rect
+       style="fill:#ff7f2a;stroke-width:1.22034"
+       id="rect16"
+       width="15.458996"
+       height="18.677031"
+       x="154.13397"
+       y="86.740807"
+       ry="8.8715906"
+       transform="matrix(0.99999996,-2.9864039e-4,2.8324354e-4,0.99999996,0,0)" />
+    <ellipse
+       style="fill:#ff7f2a;stroke-width:1.48119"
+       id="path146"
+       cx="110.15587"
+       cy="144.30496"
+       rx="20.136351"
+       ry="21.790981"
+       transform="matrix(0.99999996,-2.9864039e-4,2.8324354e-4,0.99999996,0,0)" />
+  </g>
+</svg>
