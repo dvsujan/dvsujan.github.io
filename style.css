@@ -111,16 +111,13 @@ nav {
     transform: scale(1, 1);
 }
 
-
-/*End anchor tag animation*/
-
 @media screen and (max-width: 1024px) {
     .nav-links {
         width: 50%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .Home {
         flex-direction: column;
         overflow: hidden;
