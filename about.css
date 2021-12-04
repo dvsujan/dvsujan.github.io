@@ -106,6 +106,16 @@
     border-radius: 10px;
 }
 
+.backtint {
+    background-color: #ff7272;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 @media only screen and (max-width: 768px) {
     .cntbox {
         flex-direction: column;
@@ -115,5 +125,8 @@
     }
     .cnt2 {
         height: 100%;
+    }
+    .backtint {
+        display: none;
     }
 }
