@@ -107,10 +107,10 @@
 }
 
 .backtint {
-    background-color: #ff7272;
-    width: 40%;
-    height: 100%;
+    /* background-color: #ff7272; */
+    width: 45%;
     position: absolute;
+    height: 100vh;
     top: 0;
     left: 0;
     z-index: -1;
