@@ -116,6 +116,12 @@
     z-index: -1;
 }
 
+@media only screen and (min-width: 1366px) {
+    .backint {
+        width: 20%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .cntbox {
         flex-direction: column;
