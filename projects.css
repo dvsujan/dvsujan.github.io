@@ -166,3 +166,11 @@ body {
 .ptitle h1 {
     font-weight: 400;
 }
+
+@media only screen and (max-width: 600px) {
+    .tinder--card {
+        width: 90vw;
+        max-width: 300px;
+        max-height: 100vh;
+    }
+}

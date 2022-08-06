@@ -351,4 +351,13 @@ nav a {
     .mdqn {
         display: none;
     }
+    .sec2 {
+        height: 100vh;
+    }
+    .sec3 {
+        height: 100vh;
+    }
+    .sec4 {
+        height: 130vh;
+    }
 }
