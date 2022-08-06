@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+* {
+    margin: none;
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0px;
+    background-color: #F5F5F5;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-weight: bold;
+}
+
+.sec1 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./assets/background.svg) no-repeat;
+    background-size: cover;
+}
+
+
+/* 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: black;
+} */
+
+.s1l {
+    flex: 20;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.s1r {
+    flex: 80;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.s1t {
+    flex: 80;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10%;
+    border-right: 30px solid black;
+}
+
+.s1b {
+    flex: 20;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    padding-right: 30%;
+}
+
+.s1intro {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+.s1sub a {
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.slt {
+    flex: 20;
+}
+
+.slb {
+    flex: 80;
+}
+
+.txcnt {
+    width: 100%;
+    height: 100%;
+    border-left: 30px solid black;
+}
+
+nav {
+    display: flex;
+    height: 10vh;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: normal;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: #CC5C64;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 0.25s;
+}
+
+.nav-links a:hover::after {
+    transform: scale(1, 1);
+}
+
+.sec2 {
+    height: 80vh;
+}
+
+.sec3 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s3t h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills img {
+    width: 12%;
+}
+
+.sec4 {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4t {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.sec2 h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.sec2m {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.s2l {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: left; */
+    /* background-color: red; */
+}
+
+.s2l h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.s2l p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.s2l span {
+    display: flex;
+    flex-direction: row;
+}
+
+.s2l h5 {
+    font-size: 1rem;
+    padding-left: 40px;
+}
+
+.s2r {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bbtnc {
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.bbtnc button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 5%;
+}
+
+.bbtnc a {
+    color: white;
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -6px);
+}
+
+@media only screen and (max-width: 600px) {
+    .sec1 {
+        background-color: red;
+        background: none;
+    }
+    .typewrite {
+        padding-left: 10%;
+    }
+    .sec2m {
+        flex-direction: column;
+    }
+    .s2r {
+        display: none;
+    }
+    .skills {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+    .sec3 {
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+    }
+    .skills img {
+        padding-top: 10%;
+        width: 20%;
+    }
+    .sec4 {
+        min-height: 100vh;
+    }
+    .nav-links {
+        width: 50%;
+    }
+    .burger {
+        display: block;
+    }
+    .mdqn {
+        display: none;
+    }
+}

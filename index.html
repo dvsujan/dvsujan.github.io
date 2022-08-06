@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mouse.css">
+    <link rel="stylesheet" href="./socials.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>sujan portfolio</title>
+    <script src="./nav.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Sujan</div>
+        <ul class="nav-links">
+            <a href="./index.html">
+                <li>Home</li>
+            </a>
+            <a onClick="document.getElementById('sec2').scrollIntoView({
+                behavior: 'smooth'
+            });" class="mdqn">
+                <li>About</li>
+            </a>
+            <a href="./projects.html">
+                <li>Projects</li>
+            </a>
+            <a onClick="document.getElementById('sec4').scrollIntoView({
+                behavior: 'smooth'
+            });" class="mdqn">
+                <li>Contact Me</li>
+            </a>
+        </ul>
+        <!-- <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div> -->
+    </nav>
+    <section class="sec1">
+        <div class="sec1t">
+            <h1 class="s1intro">Hello, I'm Sujan</h1>
+            <h2 class="s1sub">
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Web Developer","Data Science"]'>
+                    <span class="wrap"></span>
+                </a>
+            </h2>
+        </div>
+
+        <div class="mouse_scroll">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+
+            </div>
+        </div>
+    </section>
+    <section class="sec2" id="sec2">
+        <div>
+            <h1>About Me</h2>
+        </div>
+        <div class="sec2m">
+
+            <div class="s2l">
+                <!-- <p>
+                    I am currently a student at Sastra majoring Computer Science
+                </p> -->
+                <div>
+                    <span>
+                    <h5 style="font-weight:bold">Name:</h5>
+                    <h5 style="font-weight:400 ">Venkata Sujan Dasari</h5>
+                    </span>
+                    <span>
+                    <h5 style="font-weight:bold">Email:</h5>
+                    <h5 style="font-weight:400 ">dvsujan@gmail.com</h5>
+                    </span>
+                    <span>
+                    <h5 style="font-weight:bold">Role:</h5>
+                    <h5 style="font-weight:400 ">Student</h5>
+                    </span>
+                    <span>
+                    <h5 style="font-weight:bold">Location:</h5>
+                    <h5 style="font-weight:400">Andhra pradesh,India</h5>
+                    </span>
+                    <!-- <span>
+                    <h5 style="font-weight:bold">Name:</h5>
+                    <h5 style="font-weight:400 ">Sujan</h5>
+                    </span> -->
+                </div>
+                <span class="bbtnc">
+                    <button type="button""><a href="./projects.html">Projects</a></button>
+                    <button type = "button"><a href="#">Resume</a></button>
+                </span>
+            </div>
+            <div class="s2r">
+                <img src="./assets/info.svg" style="width:50%">
+            </div>
+        </div>
+    </section>
+    <section class="sec3">
+        <div class="s3t">
+            <h1>
+                Skills
+            </h1>
+        </div>
+        <div class="skills">
+            <img src='./assets/javascript-svgrepo-com (1).svg' />
+            <img src='./assets/react-dark.svg' />
+            <img src='./assets/node-js-black.svg' />
+            <img src='./assets/1643312603cpp.svg' />
+            <img src='./assets/Python_icon_(black_and_white).svg' />
+        </div>
+    </section>
+    <section class="sec4" id="sec4">
+        <div class="s4t">
+            <h1>
+                Contact Me
+            </h1>
+
+        </div>
+        <div class="socials">
+            <ul>
+                <li>
+                    <a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/dvsujan7/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="mailto:dvsujan@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/dvsujan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/dv-sujan-4a34151a3/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+<footer>
+    <script src="./type.js"></script>
+</footer>
+
+</html>
